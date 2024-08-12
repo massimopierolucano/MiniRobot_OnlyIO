@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.47" ClassName="CFlbTermDef" SubType="9099">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<BitSize>2</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>2</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<BitSize>3</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>3</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
+			<BitSize>1</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000008}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BYTE</Name>
+			<BitSize>8</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000001}">BYTE</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
+	<ImageDatas>
+		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a002000074120000741200000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3000000c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3000000c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff000000000000000000000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
+	</ImageDatas>
+	<Box Id="17" BoxType="9099" BoxFlags="#x00000020">
+		<Name>__FILENAME__</Name>
+		<ImageId>1000</ImageId>
+		<EtherCAT SlaveType="2" PdiType="#x0405" MboxDataLinkLayer="true" StateMBoxPolling="true" CfgModeSafeOp="true" CycleMBoxPollingTime="0" CoeType="47" FoeType="1" VendorId="#x00000002" ProductCode="#x21ac6012" RevisionNo="#x00690000" InfoDataAddr="true" InfoDataDcTimes="true" TimeoutMailbox2="2000" CheckRevisionNoType="4" PortPhys="305" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="AX8620-0000-0105" Desc="AX8620-0000-0105">
+			<SyncMan>001000012600010001000000600000010001001026010000</SyncMan>
+			<SyncMan>001100012200010002000000600000010001001122010000</SyncMan>
+			<SyncMan>001200000400000003000000000000000000001204000000</SyncMan>
+			<SyncMan>001902002000010004000000000000000200001920010000</SyncMan>
+			<Fmmu>0000000000000000001900010100000002000000000000000000000000000000</Fmmu>
+			<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+			<BootStrapData>0010f400f410f400</BootStrapData>
+			<DcData>0003000000000000000000000000000001000000000000000000000000000000</DcData>
+			<DcMode>4443000000000000000000000000000044432d53796e6368726f6e000000000000000000000000000000000000000000000000000000000000000000000000030100000000000000000000000000000000000000000000000000000000000000</DcMode>
+			<DcMode>4443494e00000000000000000000000044432d53796e6368726f6e2028696e7075742062617365642900000000000000000000007cfcffff00000000000000030100000000000000000001000000000000000000000000000000000000000000</DcMode>
+			<MBoxUserCmdData>004003000a0000001f000000030010000000000000000000000000000000000020f31005020000000100456e61626c6520446961674d65737361676520617320656d657267656e637900</MBoxUserCmdData>
+			<Pdo Name="PSM Controlword for axis" Index="#x1a00" Flags="#x0010" SyncMan="3">
+				<Entry Name="Controlword for axis__Non-generative brake order_n" Index="#x6000" Sub="#x01">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to brake without generating energy back in the power supply module. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__Ready to operate" Index="#x6000" Sub="#x02">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if no errors, mains voltage between tolerances, dc link loaded and relays closed. It allows the axis to be enabled. If this gets low in operation, the axis do not be disabled but rather it avoids the axis to be enabled again.]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__TorqueOFF order_n" Index="#x6000" Sub="#x03">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to switch off the torque. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__Generative brake order_n" Index="#x6000" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to brake without demanding energy from the DcLink. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__Limit dc link current_order_n" Index="#x6000" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to limit the requested current from the DC link. Active low. Cause: Motoric load (6001:04) greater than 102%.]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__NC handling_order_n" Index="#x6000" Sub="#x06">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the NC to handle. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__">
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+				<Entry Name="Controlword for axis__">
+					<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
+				</Entry>
+				<Entry Name="Controlword for axis__Counter" Index="#x6000" Sub="#x0c">
+					<Type>BIT5</Type>
+					<Comment><![CDATA[Sign for the axis, that the power supply module is in SAFEOP or OP.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Warning register" Index="#x1a01" Flags="#x0010">
+				<Entry Name="Warning__A0 Reserviert" Index="#x6004" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Warning__A1 Brake resistor power overload" Index="#x6004" Sub="#x02">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual brake power or energy above brake resistor power warning threshold (8000:0D).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A2 Device overtemperature" Index="#x6004" Sub="#x03">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual heatsink temperature above heatsink temperature warning threshold (8000:0A).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A3 DC link continuous overcurrent" Index="#x6004" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[DC link current above DC link continuous overcurrent warning threshold (8000:02).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A4 Fan malfunction" Index="#x6004" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Fan does not work.]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A5 Mains overvoltage" Index="#x6004" Sub="#x06">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual mains voltage above mains voltage max tolerance (8000:07).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A6 Mains undervoltage" Index="#x6004" Sub="#x07">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual mains voltage below mains voltage min tolerance (8000:08).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__">
+					<Type GUID="{18071995-0000-0000-0000-002000000001}">ARRAY [0..0] OF BIT</Type>
+				</Entry>
+				<Entry Name="Warning__">
+					<Type GUID="{18071995-0000-0000-0000-002000000008}">ARRAY [0..0] OF BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Memory interface data" Index="#x1a02" Flags="#x0010">
+				<Entry Name="Data 1" Index="#x6006" Sub="#x01">
+					<Type>DINT</Type>
+					<Comment><![CDATA[Actual value of debug pointer 1.]]></Comment>
+				</Entry>
+				<Entry Name="Data 2" Index="#x6006" Sub="#x02">
+					<Type>DINT</Type>
+					<Comment><![CDATA[Actual value of debug pointer 2.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Statusword" Index="#x1a03" Flags="#x0010">
+				<Entry Name="Statusword__Ready to operate" Index="#x6007" Sub="#x01">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if no errors, mains voltage between tolerances, dc link loaded and relays closed. It allows the axis to be enabled. If this gets low in operation, the axis do not be disabled but rather it avoids the axis to be enabled again.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Error" Index="#x6007" Sub="#x02">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if any error is set. To know the error look at the Diag-History.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Warning" Index="#x6007" Sub="#x03">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if any warning is set. To know the warning look at the warning register (6002).]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Relays closed" Index="#x6007" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if relays are closed.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Brake chopper active" Index="#x6007" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if brake chopper is switched on.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Fan active" Index="#x6007" Sub="#x06">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if fan is turning.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Reserve 6" Index="#x6007" Sub="#x07">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Statusword__Reserve 7" Index="#x6007" Sub="#x08">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Diagnostics" Index="#x1a04" Flags="#x0010">
+				<Entry Name="DcLink state machine" Index="#x6005" Sub="#x01">
+					<Type>USINT</Type>
+					<Comment><![CDATA[Actual state of the DcLink state machine.]]></Comment>
+				</Entry>
+				<Entry Name="Umains state machine" Index="#x6005" Sub="#x02">
+					<Type>USINT</Type>
+					<Comment><![CDATA[Actual state of the Umains state machine.]]></Comment>
+				</Entry>
+				<Entry Name="Error code" Index="#x6005" Sub="#x03">
+					<Type>UINT</Type>
+					<Comment><![CDATA[This object shall provide the error code of the last error, which occurred in this power supply module.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Voltages" Index="#x1a05" Flags="#x0010">
+				<Entry Name="Actual DC link voltage" Index="#x6001" Sub="#x01">
+					<Type>UDINT</Type>
+					<Comment><![CDATA[Actual voltage value at the DC link.]]></Comment>
+				</Entry>
+				<Entry Name="Actual mains voltage" Index="#x6001" Sub="#x02">
+					<Type>UDINT</Type>
+					<Comment><![CDATA[Actual RMS-value of mains voltage]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Currents" Index="#x1a06" Flags="#x0010">
+				<Entry Name="Actual DC link current" Index="#x6002" Sub="#x01">
+					<Type>INT</Type>
+					<Comment><![CDATA[Actual input current in the dc link. Variable only gets updated when current is higher 0.5A.]]></Comment>
+				</Entry>
+				<Entry Name="Actual motor load" Index="#x6002" Sub="#x02">
+					<Type>UINT</Type>
+					<Comment><![CDATA[Actual input load in the dc link in percent of nominal current.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Process values" Index="#x1a07" Flags="#x0000">
+				<Entry Name="Actual brake resistor continuous power" Index="#x6003" Sub="#x01">
+					<Type>UINT</Type>
+					<Comment><![CDATA[Actual continuous power converted in the brake resistor.]]></Comment>
+				</Entry>
+				<Entry Name="Actual brake resistor short-time energy" Index="#x6003" Sub="#x02">
+					<Type>UINT</Type>
+					<Comment><![CDATA[Actual brake energy generated in last second in % of maximal short-time energy (by on-time 1s). Max short-time energy = Continuous max power x Overload factor for 1s x Switch-On-Time (1s).]]></Comment>
+				</Entry>
+			</Pdo>
+			<CoeProfile ProfileNo="62919561" DisplayName="AX8000 Power supply"/>
+		</EtherCAT>
+		<Box File="Drive 18 (AX8206-0200-0104).xti" Id="18">
+			<EtherCAT PortABoxInfo="#x01000011"/>
+		</Box>
+		<Box File="Drive 19 (AX8206-0200-0104).xti" Id="19">
+			<EtherCAT PortABoxInfo="#x01000012"/>
+		</Box>
+		<Box File="Term 21 (EL9011).xti" Id="21">
+			<EtherCAT PortABoxInfo="#x01000013"/>
+		</Box>
+	</Box>
+</TcSmItem>
