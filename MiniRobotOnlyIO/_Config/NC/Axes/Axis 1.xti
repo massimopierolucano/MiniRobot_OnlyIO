@@ -1563,25 +1563,4 @@ External Setpoint Generation:
 			</Var>
 		</Vars>
 	</Axis>
-	<Mappings>
-		<OwnerA>
-			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 12 (EK1122)^Term 17 (AX8620-0000-0105)^Drive 18 (AX8206-0200-0104)">
-				<Link VarA="Drive^Inputs^In^nDataIn1" VarB="Ch A^Ch A PositionControl Inputs^Ch A Following error actual value"/>
-				<Link VarA="Drive^Inputs^In^nDcOutputTime" VarB="InfoData^DcOutputShift"/>
-				<Link VarA="Drive^Inputs^In^nState1" VarB="Ch A^Ch A AxisMain Inputs^Ch A Statusword" Size="8"/>
-				<Link VarA="Drive^Inputs^In^nState2" VarB="Ch A^Ch A AxisMain Inputs^Ch A Statusword" Size="8" OffsB="8"/>
-				<Link VarA="Drive^Inputs^In^nState4" VarB="WcState^InputToggle0" Size="1" OffsA="1"/>
-				<Link VarA="Drive^Inputs^In^nState4" VarB="WcState^WcState0" Size="1"/>
-				<Link VarA="Drive^Outputs^Out^nCtrl1" VarB="Ch A^Ch A AxisMain Outputs^Ch A Controlword" Size="8"/>
-				<Link VarA="Drive^Outputs^Out^nCtrl2" VarB="Ch A^Ch A AxisMain Outputs^Ch A Controlword" Size="8" OffsB="8"/>
-				<Link VarA="Drive^Outputs^Out^nDataOut1" VarB="Ch A^Ch A Interpolator Outputs^Ch A Target position"/>
-				<Link VarA="Drive^Outputs^Out^nDataOut2" VarB="Ch A^Ch A Interpolator Outputs^Ch A Target velocity"/>
-				<Link VarA="Enc^Inputs^In^nDataIn1" VarB="Ch A^Ch A AxisMain Inputs^Ch A Position actual value"/>
-				<Link VarA="Enc^Inputs^In^nDcInputTime" VarB="InfoData^DcInputShift"/>
-				<Link VarA="Enc^Inputs^In^nState2" VarB="Ch A^Ch A AxisMain Inputs^Position actual value invalid" Size="1" OffsA="5"/>
-				<Link VarA="Enc^Inputs^In^nState4" VarB="WcState^InputToggle0" Size="1" OffsA="1"/>
-				<Link VarA="Enc^Inputs^In^nState4" VarB="WcState^WcState0" Size="1"/>
-			</OwnerB>
-		</OwnerA>
-	</Mappings>
 </TcSmItem>
