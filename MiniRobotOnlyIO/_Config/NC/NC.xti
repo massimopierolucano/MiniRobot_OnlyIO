@@ -20,5 +20,9 @@
 		<Axis File="Axis 2.xti" Id="2"/>
 		<Axis File="Axis 3.xti" Id="3"/>
 		<Axis File="Axis 4.xti" Id="4"/>
+		<Axis File="CGSMini_Robot01AxisLine1Front.xti" Id="5"/>
+		<Axis File="CGSMini_Robot01AxisLine1Back.xti" Id="6"/>
+		<Axis File="CGSMini_Robot01AxisLine2Front.xti" Id="7"/>
+		<Axis File="CGSMini_Robot01AxisLine2Back.xti" Id="8"/>
 	</NC>
 </TcSmItem>
