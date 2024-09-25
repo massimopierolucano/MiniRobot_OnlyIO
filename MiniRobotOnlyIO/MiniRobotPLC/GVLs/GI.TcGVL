@@ -19,7 +19,7 @@ VAR_GLOBAL
                       .bPLCCircuitBreakerOpen         := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 6^PLCCircuitBreakerOpen;
                       
                       .stUPS.bPowerReady              := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 8^UPSPowerReady;
-                      .stUPS.bUpsPowerFail            := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 7^UPSPowerFail;
+                      .stUPS.bPowerFail               := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 7^UPSPowerFail;
                       
                       .stPwrInfo.L1.Voltage           := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^L1 Basic^Voltage;
                       .stPwrInfo.L1.Current           := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^L1 Basic^Current;
